@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    --filter: hsla(277, 81%, 40%, 0.6);
+    --purp: hsl(277, 64%, 61%);
+    --headings: hsl(0, 0%, 100%);
+    --r: 0.5rem;
+}
+
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    align-items: center;
+}
+
+span {
+    color: var(--purp);
+}
+
+h1 {
+    color: var(--headings);
+    font-size: 2.8rem;
+    margin: 0 0 2rem;
+}
+
+h2 {
+    color: var(--headings);
+}
+
+h3 {
+    font-weight: normal;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.card {
+    width: 85vw;
+    height: 65vh;
+    margin: auto;
+}
+
+.panel {
+    display: inline-block;
+    width: 50%; 
+    height: inherit;
+    padding: 5rem;
+}
+.left-panel {
+    background-color: hsl(244, 38%, 16%);
+    border-top-left-radius: var(--r);
+    border-bottom-left-radius: var(--r);
+}
+
+.left-panel p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.right-panel {
+    background: linear-gradient(var(--filter), var(--filter)),
+     url('Resources/img-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+    border-bottom-right-radius: var(--r);
+    border-top-right-radius: var(--r);
+}
+
+.stats {
+    font-size: 1.2rem;
+    display: inline-block;
+    position: relative;
+    top: 2rem;
+}
+
+.space-out {
+    width: 11rem;
+}
+
+.stats h3 {
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+@media screen and (max-width: 375px) {
+    * {
+        float: none;
+        font-size: 0.4em;
+    }
+
+    span {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    .card {
+        width: 85vw;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .panel {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .right-panel {
+        height: 30vh;
+        border-radius: var(--r) var(--r) 0 0;
+        margin-top: 5rem;
+    }
+
+    .left-panel {
+        text-align: center;
+        border-radius: 0 0 var(--r) var(--r);
+        margin-bottom: 5rem;
+    }
+
+    .stats {
+        display: block;
+        margin: auto;
+    }
+
+    .stats h2 {
+        font-size: 4rem;
+    }
+
+    .stats h3 {
+        font-size: 3.5rem;
+    }
+
+    .space-out {
+        width: auto;
+    }
+
+}
