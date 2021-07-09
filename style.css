@@ -21,7 +21,7 @@ span {
 
 h1 {
     color: var(--headings);
-    font-size: 2.8rem;
+    font-size: 2.3rem;
     margin: 0 0 2rem;
 }
 
@@ -35,13 +35,13 @@ h3 {
 
 p {
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 2;
 }
 
 .card {
-    width: 85vw;
-    height: 65vh;
+    width: 75vw;
+    height: 55vh;
     margin: auto;
 }
 
@@ -73,14 +73,14 @@ p {
 }
 
 .stats {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     display: inline-block;
     position: relative;
     top: 2rem;
 }
 
 .space-out {
-    width: 11rem;
+    width: 9rem;
 }
 
 .stats h3 {
@@ -152,28 +152,28 @@ p {
 
 @media screen and (min-width: 821px) and (max-width: 1439px) {
     h1 {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 1.6rem;
-    }
-
-    h3 {
         font-size: 1.4rem;
     }
 
+    h3 {
+        font-size: 1.2rem;
+    }
+
     .stats {
-        top: 4rem;
+        font-size: 1.1rem;
     }
 
     .space-out {
-        width: 10rem;
+        width: 8rem;
     }
 
     p {
-        margin-top: 4rem;
-        font-size: 1.18rem;
+        margin-top: 3rem;
+        font-size: 1rem;
     }
 
 }
