@@ -89,7 +89,7 @@ p {
     color: hsla(0, 0%, 100%, 0.6);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 820px) {
     * {
         float: none;
         font-size: 0.4em;
