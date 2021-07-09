@@ -149,3 +149,31 @@ p {
     }
 
 }
+
+@media screen and (min-width: 821px) and (max-width: 1439px) {
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    .stats {
+        top: 4rem;
+    }
+
+    .space-out {
+        width: 10rem;
+    }
+
+    p {
+        margin-top: 4rem;
+        font-size: 1.18rem;
+    }
+
+}
