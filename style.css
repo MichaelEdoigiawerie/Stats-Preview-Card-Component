@@ -128,7 +128,6 @@ span {
     }
 
     .left-panel {
-        height: 70%;
         border-radius: 0 0 var(--brad) var(--brad);
         text-align: center;
     }
