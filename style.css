@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     --filter: hsla(277, 81%, 40%, 0.6);
     --purp: hsl(277, 64%, 61%);
     --mainh: hsl(0, 0%, 100%);
@@ -71,7 +72,6 @@ span {
 }
 
 .left-panel {
-    box-sizing: border-box;
     background: var(--cardbg);
     flex-direction: column;
     justify-content: space-evenly;
