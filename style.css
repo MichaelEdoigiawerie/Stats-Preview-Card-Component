@@ -67,8 +67,8 @@ span {
 }
 
 .panel {
-    min-width: 38rem;
-    min-height: 33rem;
+    width: 50%;
+    height: 100%;
 }
 
 .left-panel {
