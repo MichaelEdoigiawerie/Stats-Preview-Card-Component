@@ -120,11 +120,12 @@ span {
     .card {
         flex-direction: column-reverse;
         width: 65%;
-        height: 90%;
+        height: auto;
     }
 
     .panel {
         width: 100%;
+        height: auto;
     }
 
     .left-panel {
@@ -133,7 +134,7 @@ span {
     }
 
     .right-panel {
-        height: 30%;
+        height: 30vh;
         background: linear-gradient(var(--filter), var(--filter)),
         url('Resources/img-mobile.jpg');
         border-radius: var(--brad) var(--brad) 0 0;
